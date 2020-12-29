@@ -49,8 +49,7 @@ public class Leave_list {
     // Click save button
     driver.findElement(By.name("btnSave"));
     
-    // Close chrome driver
-    driver.close();
-    System.out.print("Test passed!S");
+    //driver.close();
+    System.out.print("Test passed!");
     }  
 }
